@@ -15,7 +15,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build", // this script right here is important for adding my repository to github pages.
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
