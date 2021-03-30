@@ -1,3 +1,18 @@
+# Important modifications that have been made to the project.
+
+
+# DONT FORGET
+### Run 'npm run deploy if you want to update github pages'
+### The url for github pages can be found in the package.json file alongside homepage.
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
