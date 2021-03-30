@@ -2,7 +2,9 @@
 
 
 # DONT FORGET
-### Run 'npm run deploy if you want to update github pages'
+### Run 'npm run build' do before deploy essential
+### Run 'npm run deploy' to launch your project.
+
 ### The url for github pages can be found in the package.json file alongside homepage.
 
 
