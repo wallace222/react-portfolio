@@ -1,4 +1,4 @@
-export const Portfolio1 = 
+const Portfolio1 = 
     {  
         title: 'House Party Host', 
         repository: 'https://github.com/wallace222/House-Party-Host',
@@ -35,3 +35,5 @@ export const Portfolio1 =
             "private until a specific member has been invited to the function.",
         ],
     }
+
+    export default Portfolio1

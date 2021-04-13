@@ -1,4 +1,4 @@
-export const Portfolio1 = 
+const Portfolio2 = 
     {  
         title: 'Health Hub', 
         repository: "https://github.com/wallace222/Health-Hub",
@@ -42,3 +42,5 @@ export const Portfolio1 =
             "I am not telling people how to live their lives by any means only you know what is best for you. ",
         ]
     }
+
+    export default Portfolio2

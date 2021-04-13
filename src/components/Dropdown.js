@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
-import { Portfoliodata } from './Portfoliodata';
+
+// the drop dwon bar does not have access to the portfolio's which it will need to have later down the project to display them untill then experiment inside of the seperate component.
+
 import '../style/Dropdown.css';
 import { Link } from 'react-router-dom';
 
@@ -15,7 +17,7 @@ function Dropdown() {
         onClick={handleClick}
         className={click ? 'dropdown-menu clicked' : 'dropdown-menu'}
       >
-        {Portfoliodata.map((item, index) => {
+        {/* {Portfoliodata.map((item, index) => {
           return (
             <li key={index}>
               <Link
@@ -27,7 +29,7 @@ function Dropdown() {
               </Link>
             </li>
           );
-        })}
+        })} */}
       </ul>
     </>
   );

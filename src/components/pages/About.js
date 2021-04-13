@@ -1,9 +1,9 @@
 import React from 'react'
 
-function About(props) {
+function Resume(props) {
     return (
     <h1>About Componet</h1>
     )
 }
 
-export default About
+export default Resume
