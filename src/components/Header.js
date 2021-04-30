@@ -2,7 +2,6 @@ import { Link } from 'react-router-dom';
 
 import React, { useState } from 'react';
 
-import { Button } from './Button';
 import Dropdown from './Dropdown';
 
 import '../style/Header.css';
@@ -52,7 +51,7 @@ function Header() {
             onMouseLeave={onMouseLeave}
           >
             <Link
-              to='/react-portfolio/portfolioIndex'
+              to='/react-portfolio/portfolio'
               className='nav-links'
               onClick={closeMobileMenu}
             >

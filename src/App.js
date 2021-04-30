@@ -21,13 +21,18 @@ function App() {
   return (
     <div className="App">
       <Header/>
+      <div>
+{/* Use flexbox and grid to manage your displayed content.*/}
+{/* This will work itself out when */}
       <Switch>
         <Route path = "/react-portfolio/resume" component={Resume} />
         <Route path = "/react-portfolio/form" component={Form} />
-        <Route path = "/react-portfolio/portfolioIndex" component={PortfolioIndex}/>
+        <Route path = "/react-portfolio/portfolio" component={PortfolioIndex}/>
         <Route path = "/react-portfolio/portfolio/:id" component={PortfolioProject}/>
         <Route path = "/" component={Home} /> 
       </Switch>
+      
+      </div>
       <Footer/>
     </div>
   );
