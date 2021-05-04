@@ -5,10 +5,26 @@
     font-family: 'PT Sans', sans-serif;
   }
 
+.all-body-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: stretch;
+}
 
+.left-body-item {
+  order: 0;
+  flex-shrink: 2;
+}
 
-  /* I would like to establish universal containers that would be aplied across all of my web pages */
+.middle-body-item {
+  order: 1;
+  flex-grow: 30;
+  flex-basis: auto;
+}
 
-  .all-content-container {
-    
-  } 
+.right-body-item {
+  order: 2;
+  /* flex-shrink: 2; */
+}

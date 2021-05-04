@@ -1,4 +1,4 @@
-const blog = 
+const blogpost1 = 
 {
     title: "flex box and grid, What are they good for?",
     day: "30th April",
@@ -8,3 +8,5 @@ const blog =
     "while flexbox operates on one dimension for the container or element that it is used on.",]
 
 }
+
+export default blogpost1

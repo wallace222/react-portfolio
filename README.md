@@ -14,16 +14,21 @@ all changes will be spread across the site.
 # To Do list for portfolio.
 
 
+1. One of the few new things that I would like to add to my website would be. I would like for my sidebars of my website to stretch from their top to their bottom.
+2. I would like for my footer to always remain at the bottom of my website.
 
 
-1. rename all the links and change the dropdown menu to host your products.
-2. create a mobile friendly page for displaying the basics of your projects.
-3.
-4. remove the button component and change all of the navbar buttons to mimic the css on the component.
-5. Fill up the abouts section on your website so that it shows your story in a positive light.
-6. 
-7.
-8.
+My goal for my next coding session
+1. I would like the header and the footer to only appear at the top of the page
+2. I would like to be able to scroll through my content
+
+3. I would like for my sidebars to remain in place and retain their ratio
+
+Specs For Sidebars
+
+1. On my sidebar I would my sidebar image to always be as tall as the webpage itself.
+2. I would like for the sidebar to always retain its width ratio depending on the percentage of space that it is taking up in reference to the main content.
+3. I would like the image in the sidebar to not squish its resolution but rather push parts of the image out of the frame instead.
 
 
 Notes to self. oh I can see clearly now. The services is mobile friendly as it changes to website to display products from a mobile view.

@@ -4,7 +4,6 @@ import Portfolio1 from './portfolio1.js'
 import Portfolio2 from './portfolio2.js'
 import Portfolio3 from './portfolio3.js'
 
-
 const  portfolioCollection = {
     Portfolio1: Portfolio1,
     Portfolio2: Portfolio2,
