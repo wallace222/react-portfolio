@@ -14,7 +14,28 @@ all changes will be spread across the site.
 # To Do list for portfolio.
 
 
-1. One of the few new things that I would like to add to my website would be. I would like for my sidebars of my website to stretch from their top to their bottom.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 2. I would like for my footer to always remain at the bottom of my website.
 
 
@@ -28,7 +49,7 @@ Specs For Sidebars
 
 1. On my sidebar I would my sidebar image to always be as tall as the webpage itself.
 2. I would like for the sidebar to always retain its width ratio depending on the percentage of space that it is taking up in reference to the main content.
-3. I would like the image in the sidebar to not squish its resolution but rather push parts of the image out of the frame instead.
+3. I would like the image in the sidebar to not squish its resolution but rather push parts of the image out of the frame instead.npm
 
 
 Notes to self. oh I can see clearly now. The services is mobile friendly as it changes to website to display products from a mobile view.

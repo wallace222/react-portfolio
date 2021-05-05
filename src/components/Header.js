@@ -65,7 +65,16 @@ function Header() {
               className='nav-links'
               onClick={closeMobileMenu}
             >
-              Contact Us
+              Contact
+            </Link>
+          </li>
+          <li className='nav-item'>
+            <Link
+              to='/react-portfolio/form'
+              className='nav-links'
+              onClick={closeMobileMenu}
+            >
+              CV
             </Link>
           </li>
         </ul>
