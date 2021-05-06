@@ -5,6 +5,9 @@ import {
   Route
 } from "react-router-dom"
 
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+
 import './style/App.css';
 
 import Header from './components/Header.js'
@@ -15,6 +18,8 @@ import Form from './components/pages/Form.js'
 import PortfolioIndex from './components/pages/PortfolioIndex.js'
 import PortfolioProject from './components/pages/PortfolioProject.js'
 import Resume from './components/pages/Resume.js';
+
+library.add(fab)
 
 function App() {
 
