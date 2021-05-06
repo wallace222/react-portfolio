@@ -29,6 +29,8 @@ function Header() {
     }
   };
 
+//  go out of your way to create a hover effect for the header of your site
+
   return (
     <>
       <nav className='navbar'>
@@ -65,12 +67,12 @@ function Header() {
               className='nav-links'
               onClick={closeMobileMenu}
             >
-              Contact
+              Contactnpm run dev
             </Link>
           </li>
           <li className='nav-item'>
             <Link
-              to='/react-portfolio/form'
+              to='/react-portfolio/resume'
               className='nav-links'
               onClick={closeMobileMenu}
             >

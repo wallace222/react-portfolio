@@ -14,7 +14,7 @@ import Home from './components/pages/Home.js'
 import Form from './components/pages/Form.js'
 import PortfolioIndex from './components/pages/PortfolioIndex.js'
 import PortfolioProject from './components/pages/PortfolioProject.js'
-import Resume from './components/pages/About.js';
+import Resume from './components/pages/Resume.js';
 
 function App() {
 
