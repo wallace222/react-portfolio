@@ -1,0 +1,24 @@
+.Home {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: '../images/ripples.png';
+}
+
+.main-heading-container {
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    border-bottom-width: 50px;
+    border-bottom-style: solid;
+    border-color: grey;
+}
+
+
+.main-heading-lines {
+    width: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    border-bottom-width: 50px;
+    border-bottom-style: solid;
+    border-color: grey;
+}

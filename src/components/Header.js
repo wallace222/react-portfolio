@@ -35,7 +35,7 @@ function Header() {
     <>
       <nav className='navbar'>
         <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-          EPIC
+          A.W Work
           <i className='fab fa-firstdraft' />
         </Link>
         <div className='menu-icon' onClick={handleClick}>
@@ -60,15 +60,6 @@ function Header() {
               Portfolio <i className='fas fa-caret-down' />
             </Link>
             {dropdown && <Dropdown />}
-          </li>
-          <li className='nav-item'>
-            <Link
-              to='/react-portfolio/form'
-              className='nav-links'
-              onClick={closeMobileMenu}
-            >
-              Contactnpm run dev
-            </Link>
           </li>
           <li className='nav-item'>
             <Link
