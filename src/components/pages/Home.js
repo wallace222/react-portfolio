@@ -20,17 +20,16 @@ function Home(props) {
         <>
             <div className="Home">
                 <div className="First-section">
-                <div className="main-heading-container">
-                    <div className="main-heading-lines"></div>
-                <h1>Ashby Willimott's portfolio showcase.</h1>
-                    <div className="main-heading-lines"></div>
-                </div>
-                <div>
-                    <h1>CV is story</h1>
-                    <h1>Showcase projects</h1>
+                    <div className="main-heading-container">
+                        <div className="main-heading-lines"></div>
+                        <h1>Ashby Willimott's portfolio showcase.</h1>
+                        <div className="main-heading-lines"></div>
                     </div>
-            
-            </div>
+                    <div>
+                        <h1>CV is story</h1>
+                        <h1>Showcase projects</h1>
+                    </div>  
+                </div>
             </div>
         </>
     )
