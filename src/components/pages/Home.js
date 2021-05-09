@@ -17,19 +17,34 @@ function Home(props) {
     // I will make it short and sweat.
 
     return(
+
+// Have seperate grid containers for the different components
+
+
+
+// I will need to create a grid container for my title layout.
+
+// then I will need to create a grid container for the placement of where my portfolios gonna be
+
+//then I will need to create 2 seperate types of containers. for the inner contents of my projects
+//1. for the smaller ones at the top
+//2. one for the bottom container which will be the main project
+
+
         <>
             <div className="Home">
-                <div className="First-section">
-                    <div className="main-heading-container">
-                        <div className="main-heading-lines"></div>
-                        <h1>Ashby Willimott's portfolio showcase.</h1>
-                        <div className="main-heading-lines"></div>
+                <div className="Home-container">
+                    <div className="Title-container">
+                        <h2>sdad</h2>
                     </div>
-                    <div>
-                        <h1>CV is story</h1>
-                        <h1>Showcase projects</h1>
-                    </div>  
                 </div>
+                {/* <div className="Side"></div>
+                <div className="Main-Title-Container">
+                    <div className="Main-Title-Bar"></div>
+                    <div className="Main-Title-Text"></div>
+                    <div className="Main-Title-Bar"></div>
+                </div>   
+                <div className="Side"></div> */}
             </div>
         </>
     )
