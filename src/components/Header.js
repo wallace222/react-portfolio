@@ -47,20 +47,6 @@ function Header() {
               Home
             </Link>
           </li>
-          <li
-            className='nav-item'
-            onMouseEnter={onMouseEnter}
-            onMouseLeave={onMouseLeave}
-          >
-            <Link
-              to='/react-portfolio/portfolio'
-              className='nav-links'
-              onClick={closeMobileMenu}
-            >
-              Portfolio <i className='fas fa-caret-down' />
-            </Link>
-            {dropdown && <Dropdown />}
-          </li>
           <li className='nav-item'>
             <Link
               to='/react-portfolio/resume'

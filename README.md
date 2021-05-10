@@ -1,6 +1,10 @@
 ## NOTE FOR ASHBY HIMSELF
 
-1. What I need to do is I need to redirect all of the portfolio descriptions away from the their own portfolio page and onto home 
+1. For the top two portfolios I will try by seperating them.
+2. then I will size the text section and the image section of both areas.
+
+
+
 
 2. Add two seperate background patterns to the site one for the headers. side and footer (hotel wallpaper black). and another white for the main content (ripples).
 

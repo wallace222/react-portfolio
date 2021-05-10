@@ -14,8 +14,6 @@ import Header from './components/Header.js'
 import Footer from './components/Footer.js'
 
 import Home from './components/pages/Home.js'
-import PortfolioIndex from './components/pages/PortfolioIndex.js'
-import PortfolioProject from './components/pages/PortfolioProject.js'
 import Resume from './components/pages/Resume.js';
 
 library.add(fab)
@@ -32,8 +30,6 @@ function App() {
       <Header/>
             <Switch>
               <Route path = "/react-portfolio/resume" component={Resume} />
-              <Route path = "/react-portfolio/portfolio" component={PortfolioIndex}/>
-              <Route path = "/react-portfolio/portfolio/:id" component={PortfolioProject}/>
               <Route path = "/" component={Home} /> 
             </Switch>
       <Footer/>

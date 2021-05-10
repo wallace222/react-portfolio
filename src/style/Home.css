@@ -5,61 +5,89 @@
 
 .Home-container {
     display: grid;
-    grid-template-columns: 50px auto 50px;
-    grid-template-rows: 50px 100px 200px 400px 50px;
+    grid-template-columns: 100px auto 100px;
 }
 
+.Left-side {
+    background-color: grey;
+    grid-column: 1;
+}
 
-/* Before I get off for the night I need to get Title container inside of Home-containers first object */
+.Right-side {
+    background-color: grey;
+    grid-column: 3;
+}
 
-/* How trump has used css grid for his website is. he has used top and bottom border on his title for stylized lines.*/
-
-/* trump also has a main container that does nothing but define the area at which components take up. I should do that first */
-
-/* Trump uses flexbox not even grid */
-
-/* I am incurrectly using grid */
+.Main-home-container {
+    display: grid;
+    grid-column: 2;
+    grid-template-rows:100px 200px 200px;
+}
 
 .Title-container {
-    grid-column: 2;
-    grid-row: 2;
+    grid-row: 1;
+}
 
+.Top-project-container {
     display: grid;
-    background-color: brown;
-    grid-template-columns: auto 5% 300px 5% auto;
-    grid-template-rows:5px 90px 5px;
+    grid-row: 2;
+    grid-template-columns: 50% 50%;
+    /*  */
+}
+
+.Bottom-project-container {
+    grid-row: 3;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 25% 25%;
+}
+
+.left-top-project {
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    background-color: red;
+    grid-column: 1;
+    display:grid;
+    grid-template-columns: auto 200px;
+}
+
+.left-top-project Text {
+    grid-column: 1;
+    text-align: center;
+}
+
+.left-top-project Image {
+    grid-column: 2;
+}
+
+.left-top-project img {
+
+    margin: 10px;
+    height: 90%;
+    width:90%;
 }
 
 
+.right-top-project {
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    display: grid;
+    grid-column: 2;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .Main-Title-Container {
-
-
+.right-top-project Image{
 
 }
 
-.Sub-Title-Container {
+.right-top-project Text{
+
+}
 
 
-
-
-} */
-
-
+.right-top-project img {
+    background-image: red;
+}
 
 /* '../images/ripples.png' */
 /* '../images/sidebar.jpg' */
