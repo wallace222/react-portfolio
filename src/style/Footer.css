@@ -1,11 +1,11 @@
 .Footer {
+    background-image: url('../images/hotel-wallpaper-black.png');
     background-color: black;
     display: flex;
     align-items: center;
     justify-content: center;
     box-shadow: 0 50vh 0 50vh #000;
     padding-top: 30px;
-    /* I need to figure out a way to extend the footer to the bottom of the page */
 }
 
 .Footer p {
@@ -61,29 +61,13 @@
 }
 
 .icon-item p {
-    font-size: 37px;
-    /* margin-top: -10px; */
-    /* Inside of the p section I should move it up so that it is center */
-}
+    font-size: 10px;
 
-
-.fine-print{
-    position: relative;
-    bottom: 10px;
-    font-size: 0.7rem;
-    color: grey;
-    background-color: darkgray;
-}
-
-.fine-print:hover {
-    color: black;
-    background-color: white;
 }
 
 .Last-Updated h4{
     position: relative;
-    /* bottom: -10px; */
-    top: 30px;
+    top: 20px;
 }
 
 

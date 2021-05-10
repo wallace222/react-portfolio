@@ -1,12 +1,10 @@
 import React from 'react'
 
+import { Link } from 'react-router-dom'
+
 import '../../style/Home.css'
 
-import cat_1 from '../../images/cat_1.jpg'
-import cat_2 from '../../images/cat_2.jpg'
-import cat_3 from '../../images/cat_3.jpg'
-import cat_4 from '../../images/cat_4.jpg'
-import cat_5 from '../../images/cat_5.jpg'
+import salid from '../../images/salid.jfif'
 
 function Home(props) {
 
@@ -22,22 +20,27 @@ function Home(props) {
                     </div>
                     <div className="Main-home-container">  
                         <div className="Title-container">
-                            <h2>Ashby Willimott's Portfolio Showcase</h2>
+                            <h1>Ashby Willimott's Portfolio Showcase</h1>
                         </div>
                         <div className="Top-project-container">
                             <div className="left-top-project">
                                 <div className="Text">
-                                    <h1>Title #1</h1>
-                                    <p></p>
+                                    <h1>Health Hub</h1>
+                                    <p> Health Hub is a portable health management tool.
+                                        That allows for people to manage their health.
+                                        Features include the ability to set customizable goals based on user preference and individual factors.
+                                        User ability to be able to view their progress made to a goal.
+                                    </p>
+                                    <Link to={{ pathname: "https://github.com/harakeke-2021/Health-Hub"}} target="_blank">Github Repo</Link>
                                 </div>
                                 <div className="Image">
-                                    <img src={cat_1}/>
+                                    <img src={salid}/>
                                 </div>
                             </div>
                             <div className="right-top-project">
                                 <div className="Text">
-                                    <h1>Title #2</h1>
-                                    <p>Description</p>
+                                    <h1>Place Holder Title</h1>
+                                    <p> Place Holder Description</p>
                                 </div>
                                 <div className="Image">
 

@@ -1,7 +1,18 @@
 ## NOTE FOR ASHBY HIMSELF
 
-1. For the top two portfolios I will try by seperating them.
-2. then I will size the text section and the image section of both areas.
+
+With what to do about my resume. 
+There is an API for embedding pdf's onto the site. For now what I should try and do is embed a pdf of my resume.
+so that if I update my resume I can quickly update it onto my site.
+
+<!-- Important thing that needs to be noted. -->
+
+<!--
+
+ the next project that I decide to build make sure that it is available on the net so that it can be referenced easily. 
+
+-->
+
 
 
 

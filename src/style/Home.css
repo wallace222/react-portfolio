@@ -6,26 +6,33 @@
 .Home-container {
     display: grid;
     grid-template-columns: 100px auto 100px;
+    background-image: url('../images/ripples.png');
 }
 
 .Left-side {
-    background-color: grey;
+    background-image: url('../images/hotel-wallpaper-black.png');
     grid-column: 1;
 }
 
 .Right-side {
-    background-color: grey;
+    background-image: url('../images/hotel-wallpaper-black.png');
     grid-column: 3;
 }
 
 .Main-home-container {
     display: grid;
     grid-column: 2;
-    grid-template-rows:100px 200px 200px;
+    grid-template-rows:100px auto;
 }
 
 .Title-container {
     grid-row: 1;
+}
+
+.Title-container h1{
+    text-align: center;
+    position:relative;
+    bottom: -30px;
 }
 
 .Top-project-container {
@@ -35,17 +42,16 @@
     /*  */
 }
 
-.Bottom-project-container {
+/* .Bottom-project-container {
     grid-row: 3;
     grid-template-rows: 50% 50%;
     grid-template-columns: 50% 25% 25%;
-}
+} */
 
 .left-top-project {
     border-width: 2px;
     border-style: solid;
     border-color: black;
-    background-color: red;
     grid-column: 1;
     display:grid;
     grid-template-columns: auto 200px;

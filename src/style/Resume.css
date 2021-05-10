@@ -1,0 +1,19 @@
+.Resume {
+    text-align: center;
+    background-image: '../images/ripples.png';
+}
+.Resume-container {
+    display: grid;
+    grid-template-columns: 100px auto 100px;
+    background-image: url('../images/ripples.png');
+}
+
+.Left-side {
+    background-image: url('../images/hotel-wallpaper-black.png');
+    grid-column: 1;
+}
+
+.Right-side {
+    background-image: url('../images/hotel-wallpaper-black.png');
+    grid-column: 3;
+}
