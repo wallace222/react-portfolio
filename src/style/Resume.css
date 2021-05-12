@@ -17,3 +17,94 @@
     background-image: url('../images/hotel-wallpaper-black.png');
     grid-column: 3;
 }
+
+/* A4 ratio is 1:1.414*/
+
+.A4 {
+    background-image: url('../images/white-marble.jpg');
+    text-align: auto;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top:75px;
+    margin-bottom:75px;
+    background-color: cornsilk;
+    height: 707px;
+    width: 500px;
+    display: grid;
+    
+    grid-template-columns: 50px auto 50px;
+    grid-template-rows: 50px 120px 80px 280px auto 50px;
+}
+
+.A4 h1 {
+    text-align: left;
+    font-size: 25px;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    
+    border-width:2px;
+    
+    margin-bottom: 10px;
+}
+
+.A4 h2 {
+    text-align: left;
+    font-size: 20px;
+    border-bottom-style: solid;
+    border-width: 1px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+
+}
+
+.A4 h3 {
+    text-align: left;
+    font-size: 18px;
+    margin-left: 15px;
+    text-decoration: underline;
+    margin-top: 5px;
+}
+
+.A4 h4 {
+    text-align: left;
+    font-size: 15px;
+    margin-left: 20px;
+    border-width: 1px;
+    border-bottom-style: dotted;
+    border-color: lightgrey;
+}
+
+.A4 p {
+    text-align: left;
+    font-size: 9px;
+    margin-left: 25px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* Code that was copied from the documentation */
+
+.Name-Contact {
+    grid-row:2;
+    grid-column:2;
+}
+
+
+.Skill-section {
+    grid-row:3;
+    grid-column:2;
+}
+
+.Experience {
+    grid-row:4;
+    grid-column:2;
+}
+
+.Education-Certificate {
+    grid-row:5;
+    grid-column:2;
+}
+
+/*  */

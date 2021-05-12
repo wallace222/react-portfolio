@@ -35,65 +35,83 @@
     bottom: -30px;
 }
 
-.Top-project-container {
+.Health-Hub-Container {
     display: grid;
+    grid-template-rows: 50px 250px auto;
+    border-top-width: 10px;
+    border-style: solid;
+    padding-bottom: 50px;
+
+}
+
+.Title {
+
+}
+
+/* Section 1 the summary */
+
+.Quick-Summary {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    border-bottom-width: 5px;
+    border-bottom-style: solid;
+    border-color: lightgrey;
+}
+
+.Quick-Summary .Text {
+    order:1;
+    width:500px;
+    margin-right: 100px;
+    margin-top:50px;
+
+}
+
+.Quick-Summary .Image {
+    order:2;
+}
+
+.Quick-Summary .Image img {
+    height: 200px;
+    width: 200px;
+}
+
+/* Section 2 the showcase */
+
+.Showcase {
+ display: grid;
+ grid-template-rows: 500px 1200px ;
+ grid-template-columns: 50% 50%;
+ justify-content: space-evenly;
+}
+
+.Showcase img {
+    width: 600px;
+    margin-top: 50px;
+}
+
+.Showcase  .hhinputui{
+ grid-column: 1;
+ grid-row: 1;
+}
+
+.Showcase .hhinputcode{
+    grid-column: 1;
     grid-row: 2;
-    grid-template-columns: 50% 50%;
-    /*  */
 }
 
-/* .Bottom-project-container {
-    grid-row: 3;
-    grid-template-rows: 50% 50%;
-    grid-template-columns: 50% 25% 25%;
-} */
-
-.left-top-project {
-    border-width: 2px;
-    border-style: solid;
-    border-color: black;
-    grid-column: 1;
-    display:grid;
-    grid-template-columns: auto 200px;
-}
-
-.left-top-project Text {
-    grid-column: 1;
-    text-align: center;
-}
-
-.left-top-project Image {
+.Showcase .hhoutputui{
     grid-column: 2;
+    grid-row: 1;
 }
 
-.left-top-project img {
-
-    margin: 10px;
-    height: 90%;
-    width:90%;
-}
-
-
-.right-top-project {
-    border-width: 2px;
-    border-style: solid;
-    border-color: black;
-    display: grid;
+.Showcase .hhoutputoutcode{
     grid-column: 2;
+    grid-row: 2;
 }
 
-.right-top-project Image{
+.explanation {
 
 }
-
-.right-top-project Text{
-
-}
-
-
-.right-top-project img {
-    background-image: red;
-}
-
-/* '../images/ripples.png' */
-/* '../images/sidebar.jpg' */
