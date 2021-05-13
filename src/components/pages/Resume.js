@@ -9,8 +9,6 @@ import { useState } from 'react/cjs/react.development'
 
 
 function Resume(props) {
-
-
     return (
         <>
             <div className="Resume">

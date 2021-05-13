@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 import { Link } from 'react-router-dom'
 
@@ -11,17 +11,19 @@ import healthHubinputCode from '../../images/Health-Hub-CodeExample-1.PNG'
 import healthHuboutputUI from '../../images/Health-Hub-UI-2.PNG'
 import healthHuboutputCode from '../../images/Health-Hub-CodeExample-2.PNG'
 
-function Home(props) {
+function clicked(){
+    alert('the button has finally been clicked. Have fun.');
+}
 
-    // I will start this one off by creating a grid container for top portfolio 
 
+
+
+function Home(props) {  
     return(
-
         <>
             <div className="Home">
                 <div className="Home-container">
                     <div className="Left-side">
-                        {/* try and add a background image to sides */}
                     </div>
                     <div className="Main-home-container">  
                         <div className="Title-container">
@@ -51,7 +53,7 @@ function Home(props) {
                             </div>
                             <div className="Showcase">
                                 <div className="hhinputui">
-                                        <h1> UI form </h1>
+                                        <h1> Form UI</h1>
                                         <img style={{width: "300px"}} src={healthHubinputUI} alt="Health Hub UI Input form"/>
                                 </div>
                                 <div className="hhinputcode">
@@ -59,7 +61,7 @@ function Home(props) {
                                     <img src={healthHubinputCode} alt="Health Hub Code Input form"/>
                                 </div>
                                 <div className="hhoutputui">
-                                    <h1>UI Output</h1>
+                                    <h1>Output UI</h1>
                                     <img style={{width: "300px"}} src={healthHuboutputUI} alt="Health Hub UI Output"/>
                                 </div>
                                 <div className="hhoutputoutcode">
@@ -67,7 +69,6 @@ function Home(props) {
                                     <img  src={healthHuboutputCode} alt="Health Hub Code Input form"/>
                                 </div>
                             </div>
-                        
                         </div>
                     </div>
                     <div className="Right-side">

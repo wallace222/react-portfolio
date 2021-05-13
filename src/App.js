@@ -19,12 +19,6 @@ import Resume from './components/pages/Resume.js';
 library.add(fab)
 
 function App() {
-
-
-  // I want the images of the sidebar to be stored inside of the app and passed into the components as props.
-
-  // I can refactor the code later. for now what I will do is. I will just get it working in the bar 
-  
   return (
     <div className="App">
       <Header/>

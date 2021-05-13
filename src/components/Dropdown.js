@@ -9,6 +9,7 @@ function Dropdown() {
   const [click, setClick] = useState(false);
 
   const handleClick = () => setClick(!click);
+
   // I am able to add more items to this list has time goes by.
 
   return (
@@ -17,6 +18,7 @@ function Dropdown() {
         onClick={handleClick}
         className={click ? 'dropdown-menu clicked' : 'dropdown-menu'}
       >
+        
         {/* {Portfoliodata.map((item, index) => {
           return (
             <li key={index}>
@@ -30,6 +32,7 @@ function Dropdown() {
             </li>
           );
         })} */}
+  
       </ul>
     </>
   );
