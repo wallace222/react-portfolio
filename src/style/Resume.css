@@ -22,6 +22,7 @@
 
 .A4 {
     background-image: url('../images/white-marble.jpg');
+    background-size: cover;
     text-align: auto;
     margin-left: auto;
     margin-right:auto;
@@ -54,7 +55,6 @@
     border-width: 1px;
     margin-bottom: 10px;
     margin-left: 10px;
-
 }
 
 .A4 h3 {
@@ -107,8 +107,69 @@
     grid-column:2;
 }
 
-@media only screen and (min-width: 35em) {
-    /* .A4 h1 {
-        color: red;
-    } */
+
+/* The CV needs to increase its size upon a certain resolution */
+
+@media (max-width: 700px) {
+    /* now that I have gotten rid of the sides I need to figure out a way to have the component sit in the middle */
+
+    .Main-Resume-container
+    {
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+    .Left-side
+    {
+        width: 0px;
+    }
+    .Right-side
+    {
+        width: 0px;
+    }
+}
+
+
+@media (min-width: 1550px)
+{
+    .Resume-container {
+        grid-template-columns: 250px auto 250px;
+    }
+
+    .A4 {
+        width: 1000px;
+        height: 1414px;
+        grid-template-columns: 50px auto 50px;
+        grid-template-rows: 100px 240px 160px 560px auto 100px;
+    }
+
+    .A4 p {
+        font-size: 18px;
+        margin-left: 50px;
+    }
+
+    .A4 h4 {
+        font-size: 30px;
+        margin-left: 40px;
+        border-width: 2px;
+    }
+
+    .A4 h3 {
+        font-size: 36px;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+
+    .A4 h2 {
+        font-size: 40px;
+        border-width: 2px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+
+    .A4 h1 {
+        font-size: 50px;
+        border-width:4px;
+        margin-bottom: 20px;
+    }
 }

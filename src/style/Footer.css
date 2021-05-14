@@ -25,35 +25,30 @@
     text-align: center;
 }
 
+/* I would like to add a wrap property somehow. */
 
+/*  */
 
 .Footer-Row {
+    flex-wrap: wrap;
     display: flex;
     flex-direction: row;    
     align-items: stretch;
     justify-content: center;
-    /* flexbox container for footer */
-
 }
 
 .Footer-Col {
-
     width: '30%';
-    /* flexbox item for footer */
-
 }
 
 .icon-container {
     display: flex;
     flex-direction: row;
-    /*  */
-    
 }
 
 .icon-item {
     margin:10px;
     padding:20px;
-
     border-color: white;
     border-radius: 5px;
     border-spacing: 50px;
@@ -61,16 +56,37 @@
 }
 
 .icon-item p {
-    font-size: 10px;
+    font-size: 30px;
+}
 
+.icon-item .email {
+    font-size: 15px;
+    position: relative;
+    bottom: 8px;
 }
 
 .Last-Updated h4{
+    font-size: 20px;
     position: relative;
     top: 20px;
 }
 
+/* Ok fuck it I want the last updated to wrap underneath the icons when it gets tight instead of this pussy shit. */
 
-@media screen and (max-width: 960px) {
-    /* This is the */
+
+@media (max-width: 700px)
+{
+    .icon-item {
+        margin: 1px;
+    }
+
+    .icon-item .email {
+        font-size: 12px;
+    }
+    /* I need to get rid of the left and right margin for the icons bro */
+}
+
+@media (max-height: 1550px)
+{
+
 }

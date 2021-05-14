@@ -29,8 +29,6 @@ function Header() {
     }
   };
 
-//  go out of your way to create a hover effect for the header of your site
-
   return (
     <>
       <nav className='navbar'>

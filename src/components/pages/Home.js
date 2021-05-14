@@ -15,9 +15,6 @@ function clicked(){
     alert('the button has finally been clicked. Have fun.');
 }
 
-
-
-
 function Home(props) {  
     return(
         <>

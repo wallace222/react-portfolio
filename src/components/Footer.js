@@ -38,7 +38,7 @@ function Footer(props) {
                                 </div>
                             </Link>
                             <div className="icon-item">
-                                <p>{<FontAwesomeIcon icon={faEnvelope} color="white"/>}  <span className="fine-print"> ashbyw00contact@gmail.com</span></p>
+                                <p>{<FontAwesomeIcon icon={faEnvelope} color="white"/>}  <span className="email"> ashbyw00contact@gmail.com</span></p>
                             </div>
                         </div>
                     </div>
