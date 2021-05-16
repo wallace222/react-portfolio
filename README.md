@@ -1,23 +1,6 @@
 ## NOTE FOR ASHBY HIMSELF
 
-### I will need to make the website responsive.
-
-
-### second make the footer responsive
-
-Now I will have to start working on the footer
-
-I should make the icons larger as a default.
-
-Using the same resolutions as before
-
-700px. max-width for media.
-1550px. min-width for media.
-
-
-### third make the Home responsive
-
-Sort this out later
+The button for linking to the repo needs to be stylized a little bit more.
 
 ### END OF INSTRUCTIONS
 

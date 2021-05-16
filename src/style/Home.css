@@ -106,6 +106,26 @@
     grid-row: 2;
 }
 
+.Technologies {
+    margin-top: 10px;
+}
+
+.Technologies-A {
+    font-weight: bold;
+
+    text-decoration: underline;
+}
+
+.Technologies-B {
+    text-decoration: underline;
+}
+
+.Repo-Link {
+    border-style: solid;
+    border-color: black;
+    margin-top: 10px;
+}
+
 @media (max-width: 1440px)
 {
     .Showcase {

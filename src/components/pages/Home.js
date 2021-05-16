@@ -37,8 +37,11 @@ function Home(props) {
                                         That allows for people to manage their health.
                                         Features include the ability to set customizable goals based on user preference and individual factors.
                                         User ability to be able to view their progress made to a goal.
+                                        <br/>
+                                        <p className="Technologies"><span className="Technologies-A">Technologies used :</span><span className="Technologies-B"> React, Redux</span></p>
+
                                     </p>
-                                    <Link to={{ pathname: "https://github.com/harakeke-2021/Health-Hub"}} target="_blank">Github Repo</Link>
+                                   <Link to={{ pathname: "https://github.com/harakeke-2021/Health-Hub"}} target="_blank"> <p className="Repo-Link">Github Repo</p></Link> 
                                 </div>
                                 <div className="Image">
                                     <img src={salid} alt="salid picture"/>
