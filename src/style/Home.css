@@ -39,16 +39,12 @@
     display: grid;
     grid-template-rows: 50px 250px auto;
     border-top-width: 10px;
-    border-style: solid;
+    border-bottom-width: 10px;
+    border-top-style: solid;
     padding-bottom: 50px;
 
 }
 
-.Title {
-
-}
-
-/* Section 1 the summary */
 
 .Quick-Summary {
     display: flex;
@@ -78,11 +74,9 @@
     width: 200px;
 }
 
-/* Section 2 the showcase */
-
 .Showcase {
  display: grid;
- grid-template-rows: 500px 1200px ;
+ grid-template-rows: auto auto auto auto;
  grid-template-columns: 50% 50%;
  justify-content: space-evenly;
 }
@@ -112,10 +106,96 @@
     grid-row: 2;
 }
 
-.explanation {
+@media (max-width: 1440px)
+{
+    .Showcase {
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
+    .Showcase  .hhinputui{
+        margin-left: auto;
+        margin-right: auto;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row: 1;
+       }
+       
+       .Showcase .hhinputcode{
+        margin-left: auto;
+        margin-right: auto;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row: 2;
+       }
+       
+       .Showcase .hhoutputui{
+        margin-left: auto;
+        margin-right: auto;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row: 3;
+       }
+       
+       .Showcase .hhoutputoutcode{
+        margin-left: auto;
+        margin-right: auto;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row: 4;
+       }
 }
 
+@media (max-width: 1040px)
+{   
+    .Quick-Summary .Text {
+        order:1;
+        width:300px;
+    }
+    /* Here I will have to change the dimensions for the summary so that it flexes */
+}
 
+@media (max-width: 830px)
+{
+    .Main-home-container
+    {
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
 
+    .Left-side
+    {
+        width: 0px;
+    }
+    .Right-side
+    {
+        width: 0px;
+    }
+}
 
+@media (max-width: 650px)
+{
+    .Showcase img {
+        width: 500px;
+        margin-top: 50px;
+    }
+
+    
+    .Quick-Summary .Text {
+        order:1;
+        width:290px;
+        margin-right: 10px;
+        margin-top:50px;
+    
+    }
+    
+    .Quick-Summary .Image {
+        order:2;
+    }
+    
+    .Quick-Summary .Image img {
+        height: 200px;
+        width: 200px;
+    }
+}

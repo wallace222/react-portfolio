@@ -68,21 +68,25 @@
 .Last-Updated h4{
     font-size: 20px;
     position: relative;
-    top: 20px;
+    top: 40px;
 }
-
-/* Ok fuck it I want the last updated to wrap underneath the icons when it gets tight instead of this pussy shit. */
-
 
 @media (max-width: 700px)
 {
     .icon-item {
-        margin: 1px;
+        margin: 0px;
     }
 
     .icon-item .email {
         font-size: 12px;
     }
+
+    .Last-Updated h4{
+        top: 0px;
+    }
+
+
+
     /* I need to get rid of the left and right margin for the icons bro */
 }
 

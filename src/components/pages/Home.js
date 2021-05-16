@@ -51,7 +51,7 @@ function Home(props) {
                             <div className="Showcase">
                                 <div className="hhinputui">
                                         <h1> Form UI</h1>
-                                        <img style={{width: "300px"}} src={healthHubinputUI} alt="Health Hub UI Input form"/>
+                                        <img src={healthHubinputUI} alt="Health Hub UI Input form"/>
                                 </div>
                                 <div className="hhinputcode">
                                     <h1> Form Code</h1>
@@ -59,11 +59,11 @@ function Home(props) {
                                 </div>
                                 <div className="hhoutputui">
                                     <h1>Output UI</h1>
-                                    <img style={{width: "300px"}} src={healthHuboutputUI} alt="Health Hub UI Output"/>
+                                    <img src={healthHuboutputUI} alt="Health Hub UI Output"/>
                                 </div>
                                 <div className="hhoutputoutcode">
                                     <h1> Output Code</h1>
-                                    <img  src={healthHuboutputCode} alt="Health Hub Code Input form"/>
+                                    <img src={healthHuboutputCode} alt="Health Hub Code Input form"/>
                                 </div>
                             </div>
                         </div>
