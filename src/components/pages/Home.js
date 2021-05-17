@@ -38,7 +38,7 @@ function Home(props) {
                                         Features include the ability to set customizable goals based on user preference and individual factors.
                                         User ability to be able to view their progress made to a goal.
                                         <br/>
-                                        <p className="Technologies"><span className="Technologies-A">Technologies used :</span><span className="Technologies-B"> React, Redux</span></p>
+                                        <p className="Technologies"><span className="Technologies-A">Frameworks and Packages used :</span><span className="Technologies-B"> React, Redux, JavaScript.</span><br/><span className="Technologies-A">Languages Used :</span><span className="Technologies-B"> Javascript</span></p>
 
                                     </p>
                                    <Link to={{ pathname: "https://github.com/harakeke-2021/Health-Hub"}} target="_blank"> <p className="Repo-Link">Github Repo</p></Link> 
