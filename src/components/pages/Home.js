@@ -47,7 +47,7 @@ function Home(props) {
                                     <img src={salid} alt="salid picture"/>
                                 </div>
                             </div>
-                                <div className="explanatiom">
+                                <div className="explanation">
                                 <p> We are taking in the user's weight, their goal. Aswell as their metabolic type through their maintainence calories and at what pace the user would like to complete their goal at. </p>
                                 <p> From this I can figure out how long it will take a user to reach their weight goal based off of the data received and display the progress towards the goal as a percentage.</p>
                             </div>
